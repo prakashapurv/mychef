@@ -7,3 +7,4 @@ node_name                "prakashapurv"
 client_key               "#{current_dir}/prakashapurv.pem"
 chef_server_url          "https://api.chef.io/organizations/prakashapurv"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]="/usr/bin/vim"
